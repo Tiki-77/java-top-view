@@ -38,8 +38,8 @@ module.exports = config({
 
     nav: [
       { text: "首页", link: "/", icon: "home" },
-      { text: "GitHub", link: "https://github.com/Tiki-77", icon: "github" },
-      { text: "Gitee", link: "https://gitee.com/tikiwong", icon: "gitee" },
+      { text: "GitHub", link: "https://github.com/Tiki-77/java-top-view", icon: "github" },
+      { text: "Gitee", link: "https://gitee.com/tikiwong/java-top-view", icon: "gitee" },
     ],
 
     sidebar: {
