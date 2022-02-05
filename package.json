@@ -1,0 +1,16 @@
+{
+  "name": "java-top-view",
+  "version": "1.0.0",
+  "description": "一个简单的Java学习日记",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev doc --no-cache",
+    "docs:dev": "vuepress dev doc",
+    "docs:eject-theme": "vuepress eject-hope doc"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-hope": "^1.27.3"
+  }
+}
