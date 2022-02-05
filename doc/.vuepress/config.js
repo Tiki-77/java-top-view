@@ -47,8 +47,12 @@ module.exports = config({
         {
           title: "Java", icon: "java", prefix: "java/",
           children: [{
-            title: "基础", prefix: "base/",
-            children: ["test"]
+            title: "并发编程", prefix: "concurrent/",
+            children: [
+            {
+              title: "JUC", prefix: "juc/",
+              children: ["lock"]
+            }]
           }],
         },
       ],
