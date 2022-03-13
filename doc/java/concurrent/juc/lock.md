@@ -15,7 +15,7 @@ tag:
 
 Java并发包`Java.util.concurrent`与锁相关的类几乎都存放在`java.util.concurrent.locks`包下，本文着重分析Lock接口。
 
-![Lock接口结构图](.\image\Lock接口结构图.png)
+![Lock接口结构图](./image/lock-interface-struct.png)
 
 根据上图我们可以看到，Lock接口的主要实现就是`ReentrantLock`以及`ReentrantReadWriteLock`的两个内部类`ReentrantReadWriteLock.ReadLock`、`ReentrantReadWriteLock.WriteLock`。
 

@@ -1,16 +1,20 @@
 {
   "name": "java-top-view",
-  "version": "1.0.0",
-  "description": "一个简单的Java学习日记",
+  "version": "2.0.0",
+  "description": "一份Java学习笔记",
   "license": "MIT",
   "scripts": {
-    "docs:build": "vuepress build doc",
-    "docs:clean-dev": "vuepress dev doc --no-cache",
-    "docs:dev": "vuepress dev doc",
-    "docs:eject-theme": "vuepress eject-hope doc"
+    "doc:build": "vuepress-vite build doc",
+    "doc:clean": "vuepress-vite dev doc --clean-cache",
+    "doc:dev": "vuepress-vite dev doc",
+    "webpack-build": "vuepress-webpack build doc",
+    "webpack-clean-serve": "vuepress-webpack dev doc --clean-cache",
+    "webpack-serve": "vuepress-webpack dev doc"
   },
   "devDependencies": {
-    "vuepress": "^1.9.7",
-    "vuepress-theme-hope": "^1.27.3"
+    "@vuepress/plugin-search": "^2.0.0-beta.36",
+    "vuepress-theme-hope": "2.0.0-beta.13",
+    "vuepress-vite": "2.0.0-beta.36",
+    "vuepress-webpack": "2.0.0-beta.36"
   }
 }
