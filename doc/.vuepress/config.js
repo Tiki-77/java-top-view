@@ -71,7 +71,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      content: "Java Top View",
+      content: "<a href='https://beian.miit.gov.cn/'>冀ICP备19035221号-1</a>",
     },
 
     // comment: {
