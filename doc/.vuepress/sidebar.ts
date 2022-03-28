@@ -16,7 +16,7 @@ export default defineSidebarConfig({
             text: "数据库", icon: "database", prefix: "db/",
             children: [{
                 text: "Reds", icon: "redis", prefix: "redis/",
-                children: ["slaveof"]
+                children: ["slaveof","sentinel"]
             }],
         }
     ],
